@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Abstract Lambdas</title>
-    <link>https://abstractlambda.com/tags/</link>
+    <link>https://zmaas.github.io/tags/</link>
     <description>Recent content in Tags on Abstract Lambdas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,20 +12,20 @@
     
     <item>
       <title>Content tagged as &#39;Academic&#39;</title>
-      <link>https://abstractlambda.com/tags/academic/</link>
+      <link>https://zmaas.github.io/tags/academic/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://abstractlambda.com/tags/academic/</guid>
+      <guid>https://zmaas.github.io/tags/academic/</guid>
       <description>&lt;p&gt;Here is a list of all the content that has been tagged as &lt;em&gt;academic&lt;/em&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Personal</title>
-      <link>https://abstractlambda.com/tags/personal/</link>
+      <link>https://zmaas.github.io/tags/personal/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://abstractlambda.com/tags/personal/</guid>
+      <guid>https://zmaas.github.io/tags/personal/</guid>
       <description></description>
     </item>
     
