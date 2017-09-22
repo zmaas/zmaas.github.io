@@ -1,4 +1,4 @@
-baseurl = "https://abstractlambda.com/"  # End your URL with a `/` trailing slash.
+baseurl = "https://zmaas.github.io/"  # End your URL with a `/` trailing slash.
 title = "Abstract Lambdas"
 copyright = "&copy; 2017 Zachary Maas"
 theme = "academic"
@@ -126,7 +126,7 @@ defaultContentLanguageInSubdir = false
   [[params.social]]
     icon = "envelope"
     icon_pack = "fa"
-    link = "mailto:test@example.org"
+    link = "mailto:zach.maas@gmail.com"
 
   [[params.social]]
     icon = "twitter"
@@ -141,7 +141,7 @@ defaultContentLanguageInSubdir = false
   [[params.social]]
     icon = "github"
     icon_pack = "fa"
-    link = "//github.com/gcushen"
+    link = "//github.com/zmaas"
 
 
 # Navigation Links
