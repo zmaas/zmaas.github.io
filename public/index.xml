@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Abstract Lambdas on Abstract Lambdas</title>
-    <link>https://zmaas.github.io/</link>
+    <link>https://abstractlambda.com/</link>
     <description>Recent content in Abstract Lambdas on Abstract Lambdas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,19 +12,19 @@
     
     <item>
       <title>FStitch - THe Fast Read Stitcher</title>
-      <link>https://zmaas.github.io/project/fstitch/</link>
+      <link>https://abstractlambda.com/project/fstitch/</link>
       <pubDate>Thu, 21 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://zmaas.github.io/project/fstitch/</guid>
+      <guid>https://abstractlambda.com/project/fstitch/</guid>
       <description></description>
     </item>
     
     <item>
       <title>.emacs.d - My emacs configuration</title>
-      <link>https://zmaas.github.io/project/ono-emacs/</link>
+      <link>https://abstractlambda.com/project/ono-emacs/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://zmaas.github.io/project/ono-emacs/</guid>
+      <guid>https://abstractlambda.com/project/ono-emacs/</guid>
       <description></description>
     </item>
     
