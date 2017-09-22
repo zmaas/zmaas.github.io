@@ -8,45 +8,7 @@
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Zachary Maas</copyright>
     <lastBuildDate>Fri, 22 Sep 2017 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://zmaas.github.io/home/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title></title>
-      <link>https://zmaas.github.io/home/about/</link>
-      <pubDate>Fri, 22 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://zmaas.github.io/home/about/</guid>
-      <description>Biography Zach Maas is a student of chemistry and mathematics at the University of Colorado: Boulder. He works as an Undergraduate researcher, with a focus on computational biology. He is a joint undergraduate researcher in the Taatjes and Dowell labs at CU. His work in the Taatjes lab focuses on the analysis of genomic data related to eRNA activity and the CDK9 and CDK19 mediator kinases, while his work in the Dowell lab works on expanding the usability and accuracy of tools for genomic analysis.</description>
-    </item>
-    
-    <item>
-      <title>Recent Posts</title>
-      <link>https://zmaas.github.io/home/posts/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://zmaas.github.io/home/posts/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Projects</title>
-      <link>https://zmaas.github.io/home/projects/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://zmaas.github.io/home/projects/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Contact</title>
-      <link>https://zmaas.github.io/home/contact/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://zmaas.github.io/home/contact/</guid>
-      <description></description>
-    </item>
+    <atom:link href="/home/" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>
