@@ -1,12 +1,12 @@
 +++
 # Date this page was created.
-date = "2016-04-27"
+date = "2017-09-21"
 
 # Project title.
 title = ".emacs.d - My emacs configuration"
 
 # Project summary to display on homepage.
-summary = "My emacs configuration, which heavily influences how I work on a day-to-day basis."
+summary = "My configuration for the Emacs text-editor, which heavily influences how I work on a day-to-day basis. My first major project in software design."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "ono-screenshot.png"
