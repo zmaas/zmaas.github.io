@@ -125,15 +125,15 @@ defaultContentLanguageInSubdir = false
   #   Full list: https://jpswalsh.github.io/academicons/
 
   [[params.social]]
+    icon = "id-card"
+    icon_pack = "fa"
+    link = "//keybase.io/zmaas"
+
+  [[params.social]]
     icon = "envelope"
     icon_pack = "fa"
     link = "mailto:zach.maas@gmail.com"
 
-  #[[params.social]]
-    #icon = "twitter"
-    #icon_pack = "fa"
-    #link = "//twitter.com/GeorgeCushen"
-#
   #[[params.social]]
     #icon = "google-scholar"
     #icon_pack = "ai"
