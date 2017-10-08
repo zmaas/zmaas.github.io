@@ -14,7 +14,8 @@ weight = 1
   interests = [
     "Biochemistry",
     "Computational Chemistry",
-    "Machine Learning"
+    "Machine Learning",
+	"Functional Programming"
   ]
 
 # List your qualifications (such as academic degrees).
@@ -32,4 +33,4 @@ weight = 1
 
 # Biography
 
-Zach Maas is a student of chemistry and mathematics at the University of Colorado: Boulder. He works as an Undergraduate researcher, with a focus on computational biology. He is a joint undergraduate researcher in the Taatjes and Dowell labs at CU. His work in the Taatjes lab focuses on the analysis of genomic data related to eRNA activity and the CDK9 and CDK19 mediator kinases. Additionally, his work in the Dowell lab works on expanding the usability and accuracy of tools for genomic analysis.
+Zach Maas is a student of chemistry and mathematics at the University of Colorado: Boulder. He works as an Undergraduate researcher, with a focus on computational biology. He is a joint undergraduate researcher in the [Taatjes](http://www.colorado.edu/chemistry/taatjeslab/) and [Dowell](http://dowell.colorado.edu/) labs at CU. His work in the Taatjes lab focuses on the analysis of genomic data related to eRNA activity and the CDK9 and CDK19 mediator kinases. Additionally, his work in the Dowell lab works on expanding the usability and accuracy of tools for genomic analysis.

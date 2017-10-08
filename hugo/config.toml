@@ -31,8 +31,7 @@ home = [ "HTML", "CSS" ]
 	font = "playfair"
 	name = "Zach Maas"
   role = "Student of Chemistry and Mathematics"
-  organizations = [ { name = "University of Colorado at Boulder", url = "" } ] 
-  organization_url = ""
+  organizations = [ { name = "University of Colorado at Boulder", url = "http://www.colorado.edu/" } ]
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "seagull.jpeg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "zach.maas@gmail.com"
