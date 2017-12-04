@@ -19,14 +19,17 @@ defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 
 [outputs]
-home = [ "HTML", "CSS" ]
+home = [ "HTML", "CSS", "RSS" ]
+section = [ "HTML", "RSS" ]
 
 [blackfriday]
   hrefTargetBlank = true
+  fractions = true  # `false` disables smart fractions (e.g. 5/12 formatted as a fraction).
+  smartypants = true  # `false` disables all smart punctuation substitutions (e.g. smart quotes, dashes, fractions).
 
 [params]
-  #   Choose from `default`, `ocean`, `forest`, or `coffee`.
-	color_theme = "coffee"
+  #   Choose from `default`, `ocean`, `forest`, or `coffee`, '1950s' or 'dark'
+	color_theme = "1950s"
   #   Choose from `default`, `classic`, or `playfair`.
 	font = "playfair"
 	name = "Zach Maas"
@@ -34,7 +37,7 @@ home = [ "HTML", "CSS" ]
   organizations = [ { name = "University of Colorado at Boulder", url = "http://www.colorado.edu/" } ]
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "seagull.jpeg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-  email = "zach.maas@gmail.com"
+  email = "zach@abstractlambda.com"
   address = ""
   office_hours = ""
   phone = ""
@@ -44,13 +47,18 @@ home = [ "HTML", "CSS" ]
   # Enable Keybase in Contact section by entering your keybase.io username.
   keybase = "zmaas"
 
+  # Diplay a logo in navigation bar rather than title (optional).
+  #   To enable, place an image in `static/img/` and reference its filename below. To disable, set the value to "".
+  logo = ""
+
   # Date format (refer to Go's date format: http://flippinggodateformat.com )
   #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
   date_format = "Jan 2, 2006"
+	time_format = "3:04 PM"
 
 	# Enable reading time?
 	reading_time = true
-	
+
   # Enable global LaTeX math rendering?
   #   If false, you can enable it locally on a per page basis.
   math = true
@@ -89,7 +97,7 @@ home = [ "HTML", "CSS" ]
   #   For more info on the highlighting options, see:
   #   https://gcushen.github.io/hugo-academic-demo/post/writing-markdown-latex/#highlighting-options
   highlight = true
-  highlight_languages = []
+  highlight_languages = ["go", "lisp", "clojure", "python"]
   highlight_style = "github"
   highlight_version = "9.9.0"
 
@@ -143,7 +151,7 @@ home = [ "HTML", "CSS" ]
   [[params.social]]
     icon = "envelope"
     icon_pack = "fa"
-    link = "mailto:zach.maas@gmail.com"
+    link = "mailto:zach@abstractlambda.com"
 
   #[[params.social]]
     #icon = "google-scholar"
@@ -162,19 +170,20 @@ home = [ "HTML", "CSS" ]
 #   The weight parameter defines the order that the links will appear in.
 
 [[menu.main]]
-  name = "Home"
-  url = "#about"
+  name = "Posts"
+  url = "#posts"
   weight = 1
+
+[[menu.main]]
+  name = "About"
+  url = "#about"
+  weight = 2
 
 # [[menu.main]]
 #   name = "Publications"
 #   url = "#publications_selected"
-#   weight = 2
+#   weight = 3
 
-[[menu.main]]
-  name = "Posts"
-  url = "#posts"
-  weight = 3
 
 [[menu.main]]
   name = "Projects"
