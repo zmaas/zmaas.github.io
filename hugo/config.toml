@@ -1,4 +1,5 @@
-baseurl = "/"
+baseurl = "https://abstractlambda.com/"
+publishdir = "../"
 languageCode = "en-us"
 title = "Abstract Lambdas"
 theme = "hugo-future-imperfect"
