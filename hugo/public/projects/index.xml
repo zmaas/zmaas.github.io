@@ -6,45 +6,27 @@
     <description>Recent content in Projects on Abstract Lambdas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 Jun 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 22 Sep 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/projects/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Fancy App 1</title>
-      <link>/projects/item1/</link>
-      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      <title>FStitch - The Fast Read Stitcher</title>
+      <link>/projects/fstitch/</link>
+      <pubDate>Fri, 22 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>/projects/item1/</guid>
-      <description> App 1 </description>
+      <guid>/projects/fstitch/</guid>
+      <description>FStitch FStitch is a tool developed in the Dowell lab at CU boulder for the analysis of high-throughput genomic sequencing data (GRO-seq). I&amp;rsquo;ve worked on adding small features here and there as well as exploring improvements for more consistent analysis. You can find the original project here, and my development fork here</description>
     </item>
     
     <item>
-      <title>Fancy App 2</title>
-      <link>/projects/item2/</link>
+      <title>.emacs.d</title>
+      <link>/projects/emacs.d/</link>
       <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>/projects/item2/</guid>
-      <description> App 2 </description>
-    </item>
-    
-    <item>
-      <title>Fancy App 3</title>
-      <link>/projects/item3/</link>
-      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/projects/item3/</guid>
-      <description> App 3 </description>
-    </item>
-    
-    <item>
-      <title>Fancy App 4</title>
-      <link>/projects/item4/</link>
-      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/projects/item4/</guid>
-      <description> App 4 </description>
+      <guid>/projects/emacs.d/</guid>
+      <description>.emacs.d I keep my emacs configuration published on github. If you&amp;rsquo;re interested, you can check it out here.</description>
     </item>
     
   </channel>
