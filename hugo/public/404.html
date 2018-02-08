@@ -1,200 +1,367 @@
 <!DOCTYPE html>
-<html lang="en-us">
-<head>
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <link rel="stylesheet" media="screen" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600" />
+    <link rel="stylesheet" media="screen" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="theme" content="hugo-academic">
-  <meta name="generator" content="Hugo 0.27.1" />
-  <meta name="author" content="Zach Maas">
-  <meta name="description" content="Student of Chemistry and Mathematics">
 
-  
-  
-  
-    
-  
-  
-    
-    
-    <link rel="stylesheet" href="/css/highlight.min.css">
-    
-  
-  
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.1/css/academicons.min.css" integrity="sha512-NThgw3XKQ1absAahW6to7Ey42uycrVvfNfyjqcFNgCmOCQ5AR4AO0SiXrN+8ZtYeappp56lk1WtvjVmEa+VR6A==" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
-  
-  
-  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather%7CRoboto+Mono">
-  <link rel="stylesheet" href="/css/hugo-academic.css">
-  
+    <style>
+     * {
+         -moz-box-sizing:border-box;
+         -webkit-box-sizing:border-box;
+         box-sizing:border-box;
+     }
 
-  
+     html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+     abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+     small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+     fieldset, form, label, legend, caption, article, aside, canvas, details, figcaption, figure,  footer, header, hgroup,
+     menu, nav, section, summary, time, mark, audio, video {
+         margin:0;
+         padding:0;
+         border:0;
+         outline:0;
+         vertical-align:baseline;
+         background:transparent;
+     }
 
-  <link rel="alternate" href="https://zmaas.github.io/index.xml" type="application/rss+xml" title="Abstract Lambdas">
-  <link rel="feed" href="https://zmaas.github.io/index.xml" type="application/rss+xml" title="Abstract Lambdas">
+     article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+         display: block;
+     }
 
-  <link rel="icon" type="image/png" href="/img/icon.png">
-  <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
+     html {
+         font-size: 16px;
+         line-height: 24px;
+         width:100%;
+         height:100%;
+         -webkit-text-size-adjust: 100%;
+         -ms-text-size-adjust: 100%;
+         overflow-y:scroll;
+         overflow-x:hidden;
+     }
 
-  <link rel="canonical" href="">
+     img {
+         vertical-align:middle;
+         max-width: 100%;
+         height: auto;
+         border: 0;
+         -ms-interpolation-mode: bicubic;
+     }
 
-  
+     body {
+         min-height:100%;
+         -webkit-font-smoothing: subpixel-antialiased;
+     }
 
-  <title>404 Page not found | Abstract Lambdas</title>
+     .clearfix {
+	       clear:both;
+	       zoom: 1;
+     }
+     .clearfix:before, .clearfix:after {
+         content: "\0020";
+         display: block;
+         height: 0;
+         visibility: hidden;
+     }
+     .clearfix:after {
+         clear: both;
+     }
+    </style>
+    <style>
+  .plain.error-page-wrapper {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color:#6355bc;
+    padding:0 5%;
+    position:relative;
+  }
 
-</head>
-<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
+  .plain.error-page-wrapper .content-container {
+    -webkit-transition: left .5s ease-out, opacity .5s ease-out;
+    -moz-transition: left .5s ease-out, opacity .5s ease-out;
+    -ms-transition: left .5s ease-out, opacity .5s ease-out;
+    -o-transition: left .5s ease-out, opacity .5s ease-out;
+    transition: left .5s ease-out, opacity .5s ease-out;
+    max-width:400px;
+    position:relative;
+    left:-30px;
+    opacity:0;
+  }
 
-<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
-  <div class="container">
+  .plain.error-page-wrapper .content-container.in {
+    left: 0px;
+    opacity:1;
+  }
 
-    
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-              data-target=".navbar-collapse" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="/">Abstract Lambdas</a>
-    </div>
+  .plain.error-page-wrapper .head-line {
+    transition: color .2s linear;
+    font-size:48px;
+    line-height:60px;
+    color:rgba(255,255,255,.2);
+    letter-spacing: -1px;
+    margin-bottom: 5px;
+  }
+  .plain.error-page-wrapper .subheader {
+    transition: color .2s linear;
+    font-size:36px;
+    line-height:46px;
+    color:#fff;
+  }
+  .plain.error-page-wrapper hr {
+    height:1px;
+    background-color: rgba(255,255,255,.2);
+    border:none;
+    width:250px;
+    margin:35px 0;
+  }
+  .plain.error-page-wrapper .context {
+    transition: color .2s linear;
+    font-size:18px;
+    line-height:27px;
+    color:#fff;
+  }
+  .plain.error-page-wrapper .context p {
+    margin:0;
+  }
+  .plain.error-page-wrapper .context p:nth-child(n+2) {
+    margin-top:12px;
+  }
+  .plain.error-page-wrapper .buttons-container {
+    margin-top: 45px;
+    overflow: hidden;
+  }
+  .plain.error-page-wrapper .buttons-container a {
+    transition: color .2s linear, border-color .2s linear;
+    font-size:14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color:#fff;
+    border:2px solid white;
+    border-radius: 99px;
+    padding:8px 30px 9px;
+    display: inline-block;
+    float:left;
+  }
+  .plain.error-page-wrapper .buttons-container a:hover {
+    background-color:rgba(255,255,255,.05);
+  }
+  .plain.error-page-wrapper .buttons-container a:first-child {
+    margin-right:25px;
+  }
 
-    
-    <div class="collapse navbar-collapse">
+  @media screen and (max-width: 485px) {
+    .plain.error-page-wrapper .header {
+      font-size:36px;
+     }
+    .plain.error-page-wrapper .subheader {
+      font-size:27px;
+      line-height:38px;
+     }
+    .plain.error-page-wrapper hr {
+      width:185px;
+      margin:25px 0;
+     }
 
-      
-      <ul class="nav navbar-nav navbar-right">
-        
+    .plain.error-page-wrapper .context {
+      font-size:16px;
+      line-height: 24px;
+     }
+    .plain.error-page-wrapper .buttons-container {
+      margin-top:35px;
+    }
 
-        
+    .plain.error-page-wrapper .buttons-container a {
+      font-size:13px;
+      padding:8px 0 7px;
+      width:45%;
+      text-align: center;
+    }
+    .plain.error-page-wrapper .buttons-container a:first-child {
+      margin-right:10%;
+    }
+  }
+</style>
+    <style>
 
-        <li class="nav-item">
-          <a href="/#about">
-            
-            <span>Home</span>
-          </a>
-        </li>
+    .background-color {
+      background-color: rgba(244, 244, 244, 1) !important;
+    }
 
-        
-        
 
-        
+    .primary-text-color {
+      color: rgba(171, 171, 171, 1) !important;
+    }
 
-        <li class="nav-item">
-          <a href="/#posts">
-            
-            <span>Posts</span>
-          </a>
-        </li>
+    .secondary-text-color {
+      color: rgba(0, 0, 0, 1) !important;
+    }
 
-        
-        
+    .sign-text-color {
+      color: #FFBA00 !important;
+    }
 
-        
+    .sign-frame-color {
+      color: #343C3F;
+    }
 
-        <li class="nav-item">
-          <a href="/#projects">
-            
-            <span>Projects</span>
-          </a>
-        </li>
+    .pane {
+      background-color: #FFFFFF !important;
+    }
 
-        
-        
+    .border-button {
+      color: rgba(46, 186, 174, 1) !important;
+      border-color: rgba(46, 186, 174, 1) !important;
+    }
+    .button {
+      background-color: rgba(46, 186, 174, 1) !important;
+      color: #FFFFFF !important;
+    }
 
-        
+    .shadow {
+      box-shadow: 0 0 60px #000000;
+    }
 
-        <li class="nav-item">
-          <a href="/#contact">
-            
-            <span>Contact</span>
-          </a>
-        </li>
-
-        
-        
-
-        
-      </ul>
-
-    </div>
-  </div>
-</nav>
-
-<div class="container">
-
-  <h1>Page not found</h1>
-  <p>Maybe you were looking for one of these?</p>
-
-  <h2>Recent Posts</h2>
-  
-  <ul>
-    <li><a href="https://zmaas.github.io/post/">Posts</a></li>
-  </ul>
-  
-
-  <h2>Recent Publications</h2>
-  
-
-</div>
-<footer class="site-footer">
-  <div class="container">
-    <p class="powered-by">
-
-      &copy; 2017 Zachary Maas &middot; 
-
-      Powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic
-      theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.
-
-      <span class="pull-right" aria-hidden="true">
-        <a href="#" id="back_to_top">
-          <span class="button_icon">
-            <i class="fa fa-chevron-up fa-2x"></i>
-          </span>
-        </a>
-      </span>
-
+</style>
+  </head>
+  <body class="plain error-page-wrapper background-color background-image">
+    <div class="content-container">
+	<div class="head-line secondary-text-color">
+		404
+	</div>
+	<div class="subheader primary-text-color">
+		Oops, the page you're <br>
+		looking for does not exist.
+	</div>
+	<hr>
+	<div class="clearfix"></div>
+	<div class="context primary-text-color">
+		
+    <p>
+      You may want to head back to the homepage.<br />
+      If you think something is broken, report a problem.
     </p>
-  </div>
-</footer>
+	</div>
+	<div class="buttons-container">
+		<a class="border-button" href="/">Go To Homepage</a>
+		<a class="border-button" href="mailto:zach@abstractlambda.com">Report A Problem</a>
+	</div>
+</div>
 
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js" integrity="sha512-jGsMH83oKe9asCpkOVkBnUrDDTp8wl+adkB2D+//JtlxO4SrLoJdhbOysIFQJloQFD+C4Fl1rMsQZF76JjV0eQ==" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.2/imagesloaded.pkgd.min.js" integrity="sha512-iHzEu7GbSc705hE2skyH6/AlTpOfBmkx7nUqTLGzPYR+C1tRaItbRlJ7hT/D3YQ9SV0fqLKzp4XY9wKulTBGTw==" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js" integrity="sha512-Z5heTz36xTemt1TbtbfXtTq5lMfYnOkXM2/eWcTTiLU01+Sw4ku1i7vScDc8fWhrP2abz9GQzgKH5NGBLoYlAw==" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/plugins/ScrollToPlugin.min.js" integrity="sha512-CDeU7pRtkPX6XJtF/gcFWlEwyaX7mcAp5sO3VIu/ylsdR74wEw4wmBpD5yYTrmMAiAboi9thyBUr1vXRPA7t0Q==" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
-    
-    <script src="/js/hugo-academic.js"></script>
-    
+    <script>
+     function ErrorPage(container, pageType, templateName) {
+       this.$container = $(container);
+       this.$contentContainer = this.$container.find(templateName == 'sign' ? '.sign-container' : '.content-container');
+       this.pageType = pageType;
+       this.templateName = templateName;
+     }
 
-    
-    
-      
-      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+     ErrorPage.prototype.centerContent = function () {
+       var containerHeight = this.$container.outerHeight()
+         , contentContainerHeight = this.$contentContainer.outerHeight()
+         , top = (containerHeight - contentContainerHeight) / 2
+         , offset = this.templateName == 'sign' ? -100 : 0;
 
-      
+       this.$contentContainer.css('top', top + offset);
+     };
 
-      
+     ErrorPage.prototype.initialize = function () {
+       var self = this;
 
-      <script>hljs.initHighlightingOnLoad();</script>
-    
+       this.centerContent();
+       this.$container.on('resize', function (e) {
+         e.preventDefault();
+         e.stopPropagation();
+         self.centerContent();
+       });
 
-    
-    
-    <script type="text/x-mathjax-config">
-        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+       
+       if (this.templateName == 'plain') {
+         window.setTimeout(function () {
+           self.$contentContainer.addClass('in');
+         }, 500);
+       }
+
+       
+       if (this.templateName == 'sign') {
+         $('.sign-container').animate({textIndent : 0}, {
+           step : function (now) {
+             $(this).css({
+               transform : 'rotate(' + now + 'deg)',
+               'transform-origin' : 'top center'
+             });
+           },
+           duration : 1000,
+           easing : 'easeOutBounce'
+         });
+       }
+     };
+
+
+     ErrorPage.prototype.createTimeRangeTag = function(start, end) {
+       return (
+         '<time utime=' + start + ' simple_format="MMM DD, YYYY HH:mm">' + start + '</time> - <time utime=' + end + ' simple_format="MMM DD, YYYY HH:mm">' + end + '</time>.'
+       )
+     };
+
+
+     ErrorPage.prototype.handleStatusFetchSuccess = function (pageType, data) {
+       if (pageType == '503') {
+         $('#replace-with-fetched-data').html(data.status.description);
+       } else {
+         if (!!data.scheduled_maintenances.length) {
+           var maint = data.scheduled_maintenances[0];
+           $('#replace-with-fetched-data').html(this.createTimeRangeTag(maint.scheduled_for, maint.scheduled_until));
+           $.fn.localizeTime();
+         }
+         else {
+           $('#replace-with-fetched-data').html('<em>(there are no active scheduled maintenances)</em>');
+         }
+       }
+     };
+
+
+     ErrorPage.prototype.handleStatusFetchFail = function (pageType) {
+       $('#replace-with-fetched-data').html('<em>(enter a valid StatusPage.io url)</em>');
+     };
+
+
+     ErrorPage.prototype.fetchStatus = function (pageUrl, pageType) {
+       
+       if (!pageUrl || !pageType || pageType == '404') return;
+
+       var url = ''
+         , self = this;
+
+       if (pageType == '503') {
+         url = pageUrl + '/api/v2/status.json';
+       }
+       else {
+         url = pageUrl + '/api/v2/scheduled-maintenances/active.json';
+       }
+
+       $.ajax({
+         type : "GET",
+         url : url,
+       }).success(function (data, status) {
+         
+         self.handleStatusFetchSuccess(pageType, data);
+       }).fail(function (xhr, msg) {
+         
+         self.handleStatusFetchFail(pageType);
+       });
+
+     };
+     var ep = new ErrorPage('body', "404", "plain");
+     ep.initialize();
+
+     
+     $(window).on('resize', function() {
+       $('body').trigger('resize')
+     });
+
     </script>
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML" integrity="sha512-tOav5w1OjvsSJzePRtt2uQPFwBoHt1VZcUq8l8nm5284LEKE9FSJBQryzMBzHxY5P0zRdNqEcpLIRVYFNgu1jw==" crossorigin="anonymous"></script>
-    
-    
+
 
   </body>
 </html>
-

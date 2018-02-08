@@ -7,3 +7,6 @@
 [submodule "hugo/themes/academic"]
 	path = hugo/themes/academic
 	url = https://github.com/gcushen/hugo-academic.git
+[submodule "hugo/themes/hugo-future-imperfect"]
+	path = hugo/themes/hugo-future-imperfect
+	url = https://github.com/jpescador/hugo-future-imperfect.git
