@@ -15,7 +15,7 @@ draft = false
 
 This site took a little while to get up and running, with a few tricks needed here and there, but now that it's all setup, the editing workflow is surprisingly smooth.
 
-First things first, this site is hosted using [Hugo](https://gohugo.io), a quick and easy static site generator. I played around with alternatives like [Jekyll](https://jekyllrb.com), [Hexo](https://hexo.io), and even the haskell-based [Hakyll](https://jaspervdj.be/hakyll/), before settling on Hugo almost entirely because of the incredibly fast build times. This site is based on the [Academic Theme](https://github.com/gcushen/hugo-academic) for Hugo, which is feature rich and simple to configure.
+First things first, this site is hosted using [Hugo](https://gohugo.io), a quick and easy static site generator. I played around with alternatives like [Jekyll](https://jekyllrb.com), [Hexo](https://hexo.io), and even the haskell-based [Hakyll](https://jaspervdj.be/hakyll/), before settling on Hugo almost entirely because of the incredibly fast build times. This site is based on the [hugo-future-imperfect](https://github.com/jpescador/hugo-future-imperfect) theme for Hugo, which is feature rich and simple to configure.
 
 For domain registration, I use Google Domains which is similarly easy to use, and cheap as well. The site itself is hosted on github pages at the address [zmaas.github.io](https://zmaas.github.io). Then, cloudflare is used to forward the domain to the [abstractlambda.com](https://abstractlambda.com) address, in addition to providing support for things like HSTS and site caching. Even though static sites like this are fast, they can be even faster using Cloudflare.
 
