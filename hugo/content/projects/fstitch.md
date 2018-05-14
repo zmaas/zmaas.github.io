@@ -2,14 +2,9 @@
 type = "itemized"
 author = "Zach Maas"
 date = "2017-09-22"
-title = "FStitch - The Fast Read Stitcher"
-description = "Small improvements on and research with FStitch"
-featured = ""
-featuredpath = ""
-featuredalt = ""
-categories = [""]
-linktitle = ""
-format = "C++"
+title = "FStitch"
+description = "Small improvements on a hidden-markov model tool for high-throughput sequencing data."
+lang = "C++"
 link = ""
 +++
 

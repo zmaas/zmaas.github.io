@@ -1,18 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects on Abstract Lambdas</title>
+    <title>Abstract Lambdas</title>
     <link>https://abstractlambda.com/projects/</link>
-    <description>Recent content in Projects on Abstract Lambdas</description>
+    <description>Recent content on Abstract Lambdas</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 22 Sep 2017 00:00:00 +0000</lastBuildDate>
+    <language>en</language>
+    <lastBuildDate>Thu, 22 Mar 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://abstractlambda.com/projects/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>FStitch - The Fast Read Stitcher</title>
+      <title>evil-unimpaired.el</title>
+      <link>https://abstractlambda.com/projects/evil-unimpaired.el/</link>
+      <pubDate>Thu, 22 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://abstractlambda.com/projects/evil-unimpaired.el/</guid>
+      <description>This is a small port of Tim Pope&amp;rsquo;s unimpaired.vim, which provides overloading of the square bracket keys to many useful functions. My source, originally pulled from Spacemacs, can be found at zmaas/evil-unimpaired</description>
+    </item>
+    
+    <item>
+      <title>FStitch</title>
       <link>https://abstractlambda.com/projects/fstitch/</link>
       <pubDate>Fri, 22 Sep 2017 00:00:00 +0000</pubDate>
       
@@ -26,7 +35,7 @@
       <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>https://abstractlambda.com/projects/emacs.d/</guid>
-      <description>.emacs.d I keep my emacs configuration published on github. If you&amp;rsquo;re interested, you can check it out here.</description>
+      <description>I keep my emacs configuration published on github. If you&amp;rsquo;re interested, you can check it out here.</description>
     </item>
     
   </channel>

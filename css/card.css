@@ -1,0 +1,23 @@
+.card {
+  border:2px solid black;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5em 0.5em;
+  line-height: 1.2;
+  transition: all .1s ease-in;
+}
+
+.card:hover {
+  top: -2px;
+  box-shadow: 0 4px 5px rgba(0,0,0,0.5);
+}
+
+.card article {
+  padding: 0.5em;
+}
+
+/* typography */
+.card h1 {
+  font-size: 1.2em;
+  margin: 0.2em;
+}

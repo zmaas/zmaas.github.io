@@ -1,0 +1,20 @@
+{
+  "name": "zmaas.github.io",
+  "version": "1.0.0",
+  "description": "gulp configuration for zmaas.github.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Zachary Maas",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "latest",
+    "run-sequence": "latest",
+    "gulp-util": "latest",
+    "gulp-shell": "latest",
+    "gulp-htmlmin": "latest",
+    "gulp-uglify": "latest"
+  }
+}
