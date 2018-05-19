@@ -10,14 +10,5 @@
 	<atom:link href="https://abstractlambda.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
-    <item>
-      <title>Technical</title>
-      <link>https://abstractlambda.com/categories/technical/</link>
-      <pubDate>Fri, 03 Nov 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://abstractlambda.com/categories/technical/</guid>
-      <description></description>
-    </item>
-    
   </channel>
 </rss>
