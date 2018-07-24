@@ -6,7 +6,7 @@ draft = false
 
 ## Academic {#academic}
 
-I'm a student of chemistry and mathematics at the University of Colorado: Boulder. Currently I work as an Undergraduate researcher, with a focus on computational biology. I work jointly in the [Taatjes](http://www.colorado.edu/chemistry/taatjeslab/) and [Dowell](http://dowell.colorado.edu/) labs at CU. My work in the Taatjes lab focuses on the analysis of genomic data related to transcriptional pause release, in addition to development and improvement of tools for analysis of high-throughput genetic sequencing data.
+I'm a student of chemistry and mathematics at the University of Colorado: Boulder. I work as an Undergraduate researcher in computational biochemistry in the [Taatjes](<http://www.colorado.edu/chemistry/taatjeslab/>) and [Dowell](<http://dowell.colorado.edu/>) labs at CU. In the lab, I'm working on the techniques we use to quantify sequencing data.
 
 
 ## Personal {#personal}
@@ -18,4 +18,4 @@ I host my PGP key and keybase verification on this site. My PGP key fingerprint 
 You can find my full key and keybase verification here:
 
 -   [Keybase Verification](../keybase.txt)
--   [PGP key (Fingerprint)](../pgp_key.asc)
+-   [PGP key](../pgp_key.asc)

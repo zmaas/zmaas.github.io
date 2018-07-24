@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Abstract Lambdas</title>
+    <title>index on abstract lambdas</title>
     <link>https://abstractlambda.com/</link>
-    <description>Recent content on Abstract Lambdas</description>
+    <description>Recent content in index on abstract lambdas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 13 May 2018 00:00:00 -0600</lastBuildDate>
@@ -19,15 +19,6 @@
       <guid>https://abstractlambda.com/blog/site-setup/</guid>
       <description>This site took a little while to get up and running, with a few tricks needed here and there, but now that it&amp;rsquo;s all setup, the editing workflow is surprisingly smooth.
 First things first, this site is hosted using Hugo, a quick and easy static site generator. I played around with alternatives like Jekyll, Hexo, and even the haskell-based Hakyll, before settling on Hugo almost entirely because of the incredibly fast build times.</description>
-    </item>
-    
-    <item>
-      <title>FStitch</title>
-      <link>https://abstractlambda.com/projects/fstitch/</link>
-      <pubDate>Thu, 22 Mar 2018 00:00:00 -0600</pubDate>
-      
-      <guid>https://abstractlambda.com/projects/fstitch/</guid>
-      <description>FStitch is a tool developed in the Dowell lab at CU boulder for the analysis of high-throughput genomic sequencing data (GRO-seq). I&amp;rsquo;ve worked on adding small features here and there as well as exploring improvements for more consistent analysis. You can find the original project here, and my development fork here</description>
     </item>
     
     <item>

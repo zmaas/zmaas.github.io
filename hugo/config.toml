@@ -1,7 +1,7 @@
 baseurl = "https://abstractlambda.com/"
 publishdir = "../"
-title = "Abstract Lambdas"
-author = "Zach Maas"
+title = "abstract lambdas"
+author = "zach maas"
 canonifyurls = true
 languagecode = "en"
 theme = "ultramin"
@@ -10,18 +10,18 @@ pygmentsstyle       = "bw"
 pygmentscodefences  = true
 
 [params]
-  sitename = "Abstract Lambdas"
-  subname = "Zachary Maas"
+  sitename = "things by zach"
+  subname = "zach maas"
 
 [[menu.main]]
-    name = "About"
+    name = "about"
     url  = "/about/"
 [[menu.main]]
-    name = "Blog"
+    name = "blog"
     url  = "/blog/"
 [[menu.main]]
-    name = "Projects"
+    name = "projects"
     url  = "/projects/"
 [[menu.main]]
-    name = "Resume"
+    name = "resume"
     url  = "https://github.com/zmaas/"

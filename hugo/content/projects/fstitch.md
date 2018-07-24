@@ -1,7 +1,7 @@
 +++
 title = "FStitch"
 date = 2018-03-22
-draft = false
+draft = true
 description = "Small improvements on a hidden-markov model tool for high-throughput sequencing data."
 lang = "C++"
 +++
